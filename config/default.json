@@ -1,0 +1,1 @@
+{  "harvest": {    "subdomain": "fuzz.harvestapp.com",    "email": "",    "password": "",    "identifier": "...",    "secret": "...",    "user_agent": "node-harvest test runner"  }}
