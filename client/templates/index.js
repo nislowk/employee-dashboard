@@ -1,3 +1,4 @@
+Template.index.rendered = function() {
 var restler = require('restler'),
     querystring = require('querystring'),
     util = require('util'),
@@ -161,4 +162,6 @@ module.exports = Harvest = function (opts) {
     this.InvoiceCategories = new InvoiceCategories(this);
 
     return this;
+};
+
 };
